@@ -37,6 +37,7 @@ a {
     color: white;
     padding: 10px 80px;
     /* margin-top: 440px; */
+    text-align: center;
 }
 .content {
     margin-top: 65px;
@@ -47,6 +48,7 @@ a {
     background-color: black;
     color: white;
     padding: 10px 80px;
+    text-align: center;
 }
 
 .scrollContainer {
