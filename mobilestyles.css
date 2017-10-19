@@ -13,6 +13,15 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin: 0px 0px 100px 20px;
+    color: #69696a;
+    border-left: 3px solid #A7A7A9;
+    padding-left: 20px;
+    float: left;
+    width: 475px;
+}
+
 a {
     text-decoration: none;
     color: #69696a;
@@ -24,11 +33,25 @@ a {
     border-radius: 20px;
     background-color: black;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 80px;
     margin-top: 40px;
 }
 .content {
     margin-top: 100px;
+}
+
+#scrollDown {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+}
+
+.scrollContainer {
+    /* width: 200px; */
+    margin-top: 300px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 /*tablet*/
@@ -51,14 +74,7 @@ a {
         flex-direction: row;
         max-width: 30000px;
     }
-    p {
-        margin: 0px 0px 100px 20px;
-        color: #69696a;
-        border-left: 3px solid #A7A7A9;
-        padding-left: 20px;
-        float: left;
-        width: 475px;
-    }
+
     #hireUs {
         border-radius: 20px;
         background-color: black;
@@ -66,6 +82,7 @@ a {
         padding: 10px 30px;
         margin-top: 40px;
     }
+
     .cirPink {
         border-radius: 100%;
         background-color: rgba(247, 136, 167, 0.6);
@@ -102,14 +119,14 @@ a {
         margin-left: 795px;
         z-index: 3
     }
+
     #scrollDown {
         border-radius: 20px;
         background-color: black;
         color: white;
         padding: 10px 30px;
-        clear: both;
     }
-    
+
     .scrollContainer {
         width: 200px;
         display: block;
