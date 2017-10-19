@@ -26,12 +26,8 @@ a {
     margin-top: 40px;
 }
 
+/*tablet*/
 @media only screen and (min-width:768px) {
-    ::navContainer {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
     #hireUs {
         border-radius: 20px;
         background-color: black;
@@ -40,11 +36,14 @@ a {
         margin-top: 40px;
     }
 }
+
+/* small laptop */
 @media only screen and (min-width:992px) {
-    ::navContainer {
+    .navContainer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: row;
     }
     #hireUs {
         border-radius: 20px;
@@ -55,11 +54,13 @@ a {
     }
 }
 
+/* desktop */
 @media only screen and (min-width:1200px) {
-    ::navContainer {
+    .navContainer {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: row;
     }
 }
 
